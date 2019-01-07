@@ -98,15 +98,15 @@ nav ul li {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .work {
@@ -118,6 +118,69 @@ h3 {
     padding-top: 50px;
 }
 
-.class {
+.sites {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.example {
+    background-color: #D0F1E0;
+    border: 2px solid #BC3657;
+    width: 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example img {
+    width: 90%;
+    margin: 5%;
+}
+
+.example a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.label-link {
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 2px solid #BC3657;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #40C0A1;
+    min-height: 25vh;
+    width: 100%;
+}
+
+.contact h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 4rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    margin-left: 18%;
+    padding-bottom: 50px;
+}
+
+.social-icons img {
+    width: 14%;
+    align-self: center;
 }
