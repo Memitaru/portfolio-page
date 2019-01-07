@@ -6,28 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Mukta|Open+Sans|Roboto" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <ul>
-            <li>About</li>
-            <li>My Work</li>
-            <li>Contact</li>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section class="about">
+    <section class="about" id="welcome-section">
         <h1>Hey, I'm Amanda Thomas</h1>
         <h2>and I'm a web developer.</h2>
     </section>
-    <section class="work">
+    <section class="work" id="projects">
         <h3>Check out a few of my projects!</h3>
-        <div class="sites">
-            <div class="example">
+        <div class="sites" class="project-tile">
+            <div class="example" class="project-tile">
                 <a href="https://memitaru.github.io/tribute-page/" target="_blank">
-                    <img src="images/cowtribute.PNG" alt="cow tribute page">
+                    <img src="images/cowtribute.PNG" alt="cow tribute page" class="project-tile">
                 </a>
                 <div class="line"></div>
-                <a href="https://memitaru.github.io/tribute-page/" target="_blank" class="label-link">Tribute Page</a>
+                <a href="https://memitaru.github.io/tribute-page/" target="_blank" class="label-link" class="project-tile">Tribute Page</a>
             </div>
             <div class="example">
                 <a href="https://memitaru.github.io/Responsive-Web-Design-II/" target="_blank">
@@ -66,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h3>Let's work together!</h3>
         <div class="social-icons">
             <img src="images/github.svg" alt="github logo">
@@ -77,5 +78,12 @@
             <img src="images/phone.png" alt="phone icon">
         </div>
     </section>
+    <footer>
+        <p>&copy; <a href="https://github.com/Memitaru" target="_blank" id="profile-link">Created by Amanda Thomas</a></p>
+    </footer>
+
+    <!-- Testing script for freecodecamp. -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+
 </body>
 </html>
