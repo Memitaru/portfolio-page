@@ -60,3 +60,26 @@ html {
 p {
     font-size: 1.6rem;
 }
+
+body {
+    background-color: #7ED8C2;
+}
+
+nav {
+    background-color: #36BC9B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 12px 70px;
+    font-size: 2rem;
+}
